@@ -1,0 +1,29 @@
+.statistics {
+
+    text-align: center;
+
+   width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+    margin: 10px;
+    overflow: hidden;
+}
+
+.statList {
+    display: flex;
+
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 50px;
+
+    padding: 5px;
+    border-right: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+}
