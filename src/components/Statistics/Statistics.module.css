@@ -24,6 +24,10 @@
     width: 50px;
 
     padding: 5px;
-    border-right: 1px solid #ccc;
     border-top: 1px solid #ccc;
+    
+}
+
+.item:not(:last-child) {
+    border-right: 1px solid #ccc;
 }
